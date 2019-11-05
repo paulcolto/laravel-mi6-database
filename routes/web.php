@@ -17,3 +17,5 @@ Route::get('/', function () {
 
 
 Auth::routes();
+
+Route::resource('/mission', 'MissionController');
